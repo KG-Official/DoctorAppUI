@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#673AB7"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Choose Best \nConsultant Doctor"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:fontFamily="@font/aclonica"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="find your best doctor in your town Or city by using this application"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:fontFamily="@font/aclonica"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Get started"
+        android:backgroundTint="#442183"
+        android:padding="20dp"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:id="@+id/getStarted"
+        android:fontFamily="@font/aclonica"
+        app:cornerRadius="60dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/doctor"
+        android:scaleType="fitCenter"/>
+
+</LinearLayout>
